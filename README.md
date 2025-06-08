@@ -33,6 +33,7 @@ console.log (`Yote itakuwa ${totalFare}`)
 }
 ## this one shows the prompt the user gets
 const bodaFareInput = prompt ('Unafika wapi mkubwa? Kilometer ngapi?');
+# this one converts the string into a number
 const bodaDistance = Number (bodaFareInput)
 ## this one shows the fare details for the ride
 const fare = calculateBodaFare (bodaDistance)
@@ -86,6 +87,7 @@ function calculateChaiIngredients (numberOfCups) {
 }
 ## This is the where the user is prompted to put in the number of cups they want to make
 const numberOfChaiCupsInput = prompt("Habari! how many cups of kenyan chai do you want to make?");
+# this one converts the string into a number
 const chaiCups = Number (numberOfChaiCupsInput);
 calculateChaiIngredients(chaiCups)
 
@@ -137,5 +139,9 @@ console.log ("Send Money Securely")
 // Ask input for how much the person wants to send
 ## this is for the user input prompt
 const transactionFeeInput = prompt ("Unatuma ngapi? (KES)");
+# this one converts the string into a number
 const amountToSend = Number (transactionFeeInput);
 estimateTransactionFee (amountToSend);
+
+
+# written by Mohammed Hassan

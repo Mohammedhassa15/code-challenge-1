@@ -20,7 +20,7 @@ const totalAmount = amountToSend + transactionFee;
 
 // Display result
 console.log (`Sending KES ${amountToSend}`);
-console.log (`Calculated transaction Fee: KES ${transactionFee}`)
+console.log (`Calculated transaction Fee: KES ${transactionFee}`);
 console.log (`Total amount to transact: KES ${totalAmount}`);
 console.log ("Send Money Securely")
 
